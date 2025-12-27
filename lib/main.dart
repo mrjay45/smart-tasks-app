@@ -12,7 +12,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    ApiService().fetchTasks();
     return GetMaterialApp(
       title: 'Task App',
       theme: ThemeData(

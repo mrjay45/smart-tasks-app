@@ -100,10 +100,10 @@ class ApiService {
     }
   }
 
-
-  Future<void>deleteTask(String? id) async{
+  Future<void> deleteTask(String? id) async {
     try {
-      final url = '${AppConstants.apiBaseUrl}${AppConstants.tasksDeleteEndpoint}/$id';
+      final url =
+          '${AppConstants.apiBaseUrl}${AppConstants.tasksDeleteEndpoint}/$id';
       final response = await _dio.delete(url);
 
       if (response.statusCode == 200) {
@@ -111,7 +111,7 @@ class ApiService {
       } else {
         throw Exception('Failed to delete task: ${response.statusCode}');
       }
-    }catch(e){
+    } catch (e) {
       print('Error deleting task: $e');
       rethrow;
     }
