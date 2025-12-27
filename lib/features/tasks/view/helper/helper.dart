@@ -42,6 +42,17 @@ class Helper {
     }
   }
 
+  static Color getStatusColor(String status) {
+    switch (status.toLowerCase()) {
+      case 'completed':
+        return const Color(0xff16a34a);
+      case 'in progress' || 'in_progress':
+        return const Color(0xff2563eb);
+      default:
+        return const Color(0xfff59e0b);
+    }
+  }
+
   static String getStatusIcon(String status) {
     switch (status.toLowerCase()) {
       case 'completed':

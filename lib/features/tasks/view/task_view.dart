@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
+import 'package:task_app/features/tasks/view/task_detailed_view.dart';
 
 import '../controller/task_controller.dart';
 import './widget/task_chip.dart';
@@ -77,7 +78,11 @@ class TaskView extends StatelessWidget {
                       ),
                       child: GestureDetector(
                         onTap: () {
-                          Get.dialog(UpdateAlertBox(task: task));
+                          Get.dialog(
+                            TaskDetailedView(
+                              taskId: task.id,
+                            ),
+                          );
                         },
                         child: Container(
                           constraints: BoxConstraints(
