@@ -1,0 +1,84 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+task_app.iml
+task_app_android.iml
+
+# VS Code
+.vscode/
+
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+**/ios/Flutter/.last_build_id
+
+# Android
+/android/.gradle/
+/android/local.properties
+/local.properties
+/android/**/build/
+
+# iOS
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/ephemeral/
+xcuserdata/
+*.xcworkspace
+*.xcuserstate
+
+# Xcode
+DerivedData/
+*.moved-aside
+
+# CocoaPods
+Pods/
+
+# Build outputs
+**/build/
+
+# Symbolication / obfuscation
+app.*.symbols
+app.*.map.json
+
+# Generated plugin registrant
+ios/Runner/GeneratedPluginRegistrant.*
+
+# Keystore files
+*.jks
+*.keystore
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Secrets / local env
+*.env
+secrets.json
+
+# Keep pubspec.lock (commit for apps)
+
