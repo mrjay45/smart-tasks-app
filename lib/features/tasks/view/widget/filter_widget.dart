@@ -83,7 +83,7 @@ class FilterWidget extends StatelessWidget {
                   taskController.filterPriority.value = null;
                   taskController.filterStatus.value = null;
                 },
-                child: const Text('Update'),
+                child: const Text('Filter'),
               ),
               TextButton(
                 onPressed: () {
