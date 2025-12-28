@@ -2,7 +2,7 @@
 
 A professional Flutter-based task management application with real-time API integration, advanced filtering, and a beautiful, intuitive UI. Built with GetX state management and Material Design 3 principles.
 
-![Main Screen](app%20screenshorts/main%20screen.png)
+<img src="app%20screenshorts/main%20screen.png" width="400" alt="Main Screen">
 
 ---
 
@@ -40,42 +40,42 @@ A professional Flutter-based task management application with real-time API inte
 
 The home screen displays all tasks in a scrollable card layout with status, category, and priority indicators.
 
-![Main Screen](app%20screenshorts/main%20screen.png)
+<img src="app%20screenshorts/main%20screen.png" width="400" alt="Main Screen">
 
 ### Creating Tasks with Auto-Suggestions
 
 Smart category and priority auto-suggestions while creating new tasks.
 
-![Create Task with Auto-Suggestions](app%20screenshorts/update%20priority%20iwhile%20creating.png)
-![Auto Category and Priority](app%20screenshorts/Update%20screen%20with%20auto%20category%20and%20priority.png)
+<img src="app%20screenshorts/update%20priority%20iwhile%20creating.png" width="400" alt="Create Task with Auto-Suggestions">
+<img src="app%20screenshorts/Update%20screen%20with%20auto%20category%20and%20priority.png" width="400" alt="Auto Category and Priority">
 
 ### Task Update Interface
 
 Beautiful, compact dialog for updating task details without leaving the main screen.
 
-![Update Task Dialog](app%20screenshorts/update%20task.png)
-![Updated Task UI](app%20screenshorts/Updated%20task%20UI.png)
-![Updated Task List](app%20screenshorts/Updated%20task%20list.png)
+<img src="app%20screenshorts/update%20task.png" width="400" alt="Update Task Dialog">
+<img src="app%20screenshorts/Updated%20task%20UI.png" width="400" alt="Updated Task UI">
+<img src="app%20screenshorts/Updated%20task%20list.png" width="400" alt="Updated Task List">
 
 ### Advanced Filtering
 
 Multi-criteria filtering with visual chip-based UI for status, category, and priority.
 
-![Filter Interface](app%20screenshorts/filter.png)
-![Filter UI](app%20screenshorts/filter_ui.png)
+<img src="app%20screenshorts/filter.png" width="400" alt="Filter Interface">
+<img src="app%20screenshorts/filter_ui.png" width="400" alt="Filter UI">
 
 ### Task Search
 
 Real-time search functionality to quickly find specific tasks.
 
-![Search](app%20screenshorts/search.png)
+<img src="app%20screenshorts/search.png" width="400" alt="Search">
 
 ### Delete Operations
 
 Swipe-to-delete with confirmation dialogs to prevent accidental deletions.
 
-![Delete Task](app%20screenshorts/delete%20task.png)
-![Delete Task UI](app%20screenshorts/delete%20task%20UI.png)
+<img src="app%20screenshorts/delete%20task.png" width="400" alt="Delete Task">
+<img src="app%20screenshorts/delete%20task%20UI.png" width="400" alt="Delete Task UI">
 
 ---
 
